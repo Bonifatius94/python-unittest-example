@@ -5,9 +5,9 @@ class MyFuncClass:
     my_attribute: int = 1
 
     def get_attribute(self):
-        """A test function, always returning 1"""
+        """A test function for getting the attribute value"""
         return self.my_attribute
 
     def set_attribute(self, new_value: int):
-        """A test function, always returning 1"""
+        """A test function for setting the attribute value"""
         self.my_attribute = new_value
